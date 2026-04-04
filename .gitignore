@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Backup files (users create their own)
+plugin_backups/
+
+# Temporary extraction files
+temp_extract/
+
+# Working files
+remaining_to_translate.txt
+remaining_english_all.txt
+untranslated_texts.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
