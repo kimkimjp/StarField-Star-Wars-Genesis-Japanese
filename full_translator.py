@@ -547,10 +547,10 @@ class FullPluginWriter:
                 if null_pos > 0:
                     try:
                         original = bytes(subrecord_data[:null_pos]).decode('utf-8')
-                    except:
+                    except (UnicodeDecodeError, ValueError, struct.error):
                         try:
                             original = bytes(subrecord_data[:null_pos]).decode('cp1252')
-                        except:
+                        except (UnicodeDecodeError, ValueError, struct.error):
                             result.extend(subrecord_type)
                             result.extend(struct.pack('<H', subrecord_size))
                             result.extend(subrecord_data)
@@ -684,7 +684,15 @@ def main():
     print(f"Dictionary entries: {len(FULL_TRANSLATIONS)}")
     print("=" * 60)
 
+    if not os.path.isdir(mods_path):
+        print(f"エラー: MODディレクトリが見つかりません: {mods_path}")
+        print("Star Wars Genesisのインストールパスを確認してください。")
+        sys.exit(1)
+
     if len(sys.argv) > 1 and sys.argv[1] == "--apply":
+        # Create backup directory
+        os.makedirs(backup_dir, exist_ok=True)
+
         total = 0
         total_compressed = 0
         for folder, plugin in target_plugins:
@@ -693,6 +701,10 @@ def main():
             if not os.path.exists(plugin_path):
                 print(f"\n  {plugin}: Not found")
                 continue
+            if not os.path.exists(backup_path):
+                if os.path.exists(plugin_path):
+                    shutil.copy2(plugin_path, backup_path)
+                    print(f"  バックアップ作成: {backup_path}")
             if os.path.exists(backup_path):
                 shutil.copy2(backup_path, plugin_path)
             writer = FullPluginWriter()
