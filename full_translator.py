@@ -504,24 +504,274 @@ ADDITIONAL_TRANSLATIONS = {
         "ほぼ何でも見つけられる者がいて、その成功は通常、どこで、どうやって探すかを知っていることにかかっている。",
     "A blaster at your side is great and all, but sometimes the best weapon is simply an old adage: \"Knowledge is Power.\"":
         "腰のブラスターは素晴らしいが、時に最高の武器は単に古い格言だ：「知識は力なり」。",
+
+    # === Common game system strings ===
+    "Damage": "ダメージ",
+    "Energy Damage": "エネルギーダメージ",
+    "Physical Damage": "物理ダメージ",
+    "EM Damage": "EMダメージ",
+    "Radiation Damage": "放射線ダメージ",
+    "Damage Resistance": "ダメージ耐性",
+    "Energy Resistance": "エネルギー耐性",
+    "Physical Resistance": "物理耐性",
+    "EM Resistance": "EM耐性",
+    "Airborne Resistance": "空気感染耐性",
+    "Thermal Resistance": "熱耐性",
+    "Corrosive Resistance": "腐食耐性",
+    "Radiation Resistance": "放射線耐性",
+    "Fire Rate": "発射速度",
+    "Range": "射程",
+    "Accuracy": "精度",
+    "Mass": "質量",
+    "Value": "価値",
+    "Ammo": "弾薬",
+    "Magazine Size": "マガジンサイズ",
+    "Health": "体力",
+    "Oxygen": "酸素",
+    "Carrying Capacity": "積載量",
+
+    # === Weapon quality tiers ===
+    "Calibrated": "較正済み",
+    "Refined": "精製",
+    "Advanced": "高度",
+    "Superior": "上級",
+    "Legendary": "レジェンダリー",
+
+    # === Common status effects ===
+    "Stunned": "スタン",
+    "Bleeding": "出血",
+    "Poisoned": "毒",
+    "Burned": "火傷",
+    "Frozen": "凍結",
+    "Disarmed": "武装解除",
+    "Crippled": "不具",
+    "Encumbered": "過積載",
+    "Concealed": "隠密",
+    "Detected": "発見済み",
+    "Hidden": "隠れ状態",
+
+    # === Star Wars faction/organization names ===
+    "Galactic Empire": "銀河帝国",
+    "Rebel Alliance": "反乱同盟",
+    "Galactic Republic": "銀河共和国",
+    "Jedi Order": "ジェダイ・オーダー",
+    "Sith Order": "シス・オーダー",
+    "Mandalorian Clan": "マンダロリアン氏族",
+    "Bounty Hunters Guild": "賞金稼ぎギルド",
+    "Trade Federation": "通商連合",
+    "Separatist Alliance": "分離主義同盟",
+    "First Order": "ファースト・オーダー",
+    "Resistance": "レジスタンス",
+    "Hutt Cartel": "ハット・カルテル",
+    "Black Sun": "ブラック・サン",
+    "Crimson Dawn": "クリムゾン・ドーン",
+
+    # === Common Star Wars creature/species descriptions ===
+    "A fearsome predator native to the planet Dathomir.":
+        "惑星ダソミア原産の恐ろしい捕食者。",
+    "A large, gentle creature often used as a beast of burden.":
+        "大型で温厚な生物。荷役獣として広く使われる。",
+    "Once the guardians of peace and justice in the Old Republic.":
+        "かつて旧共和国の平和と正義の守護者だった。",
+    "The Dark Side of the Force is a pathway to many abilities some consider to be unnatural.":
+        "フォースのダークサイドは、不自然だと考える者もいる多くの能力への道を開く。",
+    "An elegant weapon for a more civilized age.":
+        "より文明的な時代のための優雅な武器。",
+    "May the Force be with you.":
+        "フォースと共にあらんことを。",
+
+    # === Common loading screen / flavor text patterns ===
+    "The galaxy is vast, and full of wonders waiting to be discovered.":
+        "銀河は広大で、発見を待つ驚異に満ちている。",
+    "In the depths of space, danger lurks around every corner.":
+        "宇宙の深淵では、あらゆる場所に危険が潜んでいる。",
+    "Trust in the Force, and it will guide your path.":
+        "フォースを信じれば、それがあなたの道を導く。",
+    "The Empire's reach extends to the farthest systems.":
+        "帝国の支配は最も遠い星系にまで及ぶ。",
+    "Credits make the galaxy go round.":
+        "クレジットが銀河を回す。",
+
+    # === Weapon mod / attachment common names ===
+    "Standard Barrel": "スタンダードバレル",
+    "Long Barrel": "ロングバレル",
+    "Short Barrel": "ショートバレル",
+    "Stabilizing Barrel": "安定化バレル",
+    "Standard Stock": "スタンダードストック",
+    "Tactical Stock": "タクティカルストック",
+    "Standard Grip": "スタンダードグリップ",
+    "Ergonomic Grip": "エルゴノミックグリップ",
+    "Standard Scope": "スタンダードスコープ",
+    "Short Scope": "ショートスコープ",
+    "Long Scope": "ロングスコープ",
+    "Recon Scope": "偵察スコープ",
+    "Standard Magazine": "スタンダードマガジン",
+    "Large Magazine": "ラージマガジン",
+    "Drum Magazine": "ドラムマガジン",
+    "Standard Muzzle": "スタンダードマズル",
+    "Suppressor": "サプレッサー",
+    "Compensator": "コンペンセーター",
+    "Muzzle Brake": "マズルブレーキ",
+    "Hair Trigger": "ヘアトリガー",
+    "Shoot From the Hip": "腰だめ撃ち",
+    "Fully Automatic": "フルオート",
+    "Semi-Automatic": "セミオート",
+    "Burst Fire": "バーストファイア",
+
+    # === Spacesuit / armor mod common names ===
+    "Ballistic Shielding": "バリスティックシールド",
+    "Energy Shielding": "エネルギーシールド",
+    "EM Shielding": "EMシールド",
+    "Gravitic Composites": "重力複合材",
+    "Ablative Coating": "アブレーションコーティング",
+    "Reactive Armor": "リアクティブアーマー",
+    "Auto-Medic": "オートメディック",
+    "Beast Hunter": "ビーストハンター",
+    "Chameleon": "カメレオン",
+    "Leadlined": "鉛裏地",
+    "Mechanized": "メカナイズド",
+    "Repulsing": "反発",
+    "Resource Hauler": "リソースホーラー",
+    "Sentinel": "センチネル",
+
+    # === Ship system names ===
+    "Shield Generator": "シールドジェネレーター",
+    "Hyperdrive": "ハイパードライブ",
+    "Sublight Engine": "亜光速エンジン",
+    "Weapons System": "兵器システム",
+    "Navigation Computer": "ナビゲーションコンピューター",
+    "Life Support": "生命維持装置",
+    "Cargo Hold": "貨物室",
+    "Cockpit": "コックピット",
+    "Reactor": "リアクター",
+    "Grav Drive": "グラブドライブ",
+    "Landing Gear": "着陸装置",
+
+    # === Quest-related common strings ===
+    "Talk to": "話しかける：",
+    "Return to": "戻る：",
+    "Collect": "集める",
+    "Deliver": "届ける",
+    "Eliminate": "排除する",
+    "Investigate": "調査する",
+    "Search": "探索する",
+    "Escape": "脱出する",
+    "Defend": "防衛する",
+    "Infiltrate": "潜入する",
+    "Retrieve": "回収する",
+    "Sabotage": "妨害する",
+    "Protect": "守る",
+    "Locate": "位置を特定する",
+    "Disable": "無力化する",
+    "Activate": "起動する",
+    "Deactivate": "停止する",
+    "Optional": "オプション",
+    "Completed": "完了",
+    "Failed": "失敗",
+
+    # === Crafting / workbench terms ===
+    "Weapon Workbench": "武器ワークベンチ",
+    "Spacesuit Workbench": "宇宙服ワークベンチ",
+    "Industrial Workbench": "産業ワークベンチ",
+    "Research Lab": "研究ラボ",
+    "Cooking Station": "料理ステーション",
+    "Pharmaceutical Lab": "薬品ラボ",
+
+    # === Common Ascension mod strings ===
+    "Ascension": "アセンション",
+    "Overhaul": "オーバーホール",
+    "Rebalanced": "リバランス済み",
+    "Enhanced": "強化済み",
+    "Modified": "改造済み",
+    "Prototype": "プロトタイプ",
+    "Experimental": "実験的",
+    "Military Grade": "軍用グレード",
+    "Civilian Grade": "民間グレード",
+    "Contraband": "禁制品",
+    "Stolen": "盗品",
+
+    # === Common NPC dialogue tags ===
+    "I have something for you.": "あなたに渡すものがある。",
+    "What do you need?": "何が必要だ？",
+    "Got anything for sale?": "何か売り物はあるか？",
+    "Tell me about this place.": "この場所について教えてくれ。",
+    "I need your help.": "助けが必要だ。",
+    "Goodbye.": "さようなら。",
+    "Farewell.": "さらばだ。",
+    "I'll be going now.": "もう行くよ。",
+    "Let me see what you have for sale.": "売り物を見せてくれ。",
+    "What can you tell me?": "何を教えてくれる？",
+
+    # === Lightsaber-related ===
+    "Lightsaber Crystal": "ライトセーバークリスタル",
+    "Kyber Crystal": "カイバークリスタル",
+    "Synthetic Crystal": "合成クリスタル",
+    "Lightsaber Hilt": "ライトセーバーヒルト",
+    "Dual-Phase Lightsaber": "デュアルフェーズライトセーバー",
+    "Double-Bladed Lightsaber": "ダブルブレードライトセーバー",
+    "Crossguard Lightsaber": "クロスガードライトセーバー",
+    "Curved-Hilt Lightsaber": "カーブドヒルトライトセーバー",
+    "Shoto Lightsaber": "ショートライトセーバー",
+    "Training Lightsaber": "トレーニングライトセーバー",
+    "Darksaber": "ダークセーバー",
+
+    # === Beskar / Mandalorian content ===
+    "Beskar Ingot": "ベスカーインゴット",
+    "Beskar Armor": "ベスカーアーマー",
+    "Mandalorian Helmet": "マンダロリアンヘルメット",
+    "Mandalorian Armor": "マンダロリアンアーマー",
+    "Whistling Birds": "ホイッスリングバード",
+    "Jetpack": "ジェットパック",
+    "Flamethrower": "火炎放射器",
+    "Grappling Line": "グラップリングライン",
+    "This is the Way.": "これが掟だ。",
+
+    # === Force Power descriptions ===
+    "Channel the dark side of the Force to unleash devastating lightning upon your enemies.":
+        "フォースのダークサイドを導き、敵に壊滅的なライトニングを解き放つ。",
+    "Use the Force to push objects and enemies away from you.":
+        "フォースを使って物体や敵を押し返す。",
+    "Use the Force to pull objects and enemies toward you.":
+        "フォースを使って物体や敵を引き寄せる。",
+    "Use the Force to choke your enemies, lifting them off the ground.":
+        "フォースを使って敵を絞め上げ、地面から持ち上げる。",
+    "Use the Force to influence the minds of the weak.":
+        "フォースを使って弱い者の心を操る。",
+    "Use the Force to sense the presence of nearby beings.":
+        "フォースを使って近くの生命の存在を感知する。",
+    "Use the Force to heal your wounds.":
+        "フォースを使って傷を癒す。",
+    "Use the Force to create a protective barrier around yourself.":
+        "フォースを使って自分の周りに防御障壁を作る。",
+    "Use the Force to enhance your speed and reflexes.":
+        "フォースを使って速度と反射神経を強化する。",
+    "Use the Force to see into the future.":
+        "フォースを使って未来を見通す。",
 }
 
 FULL_TRANSLATIONS.update(ADDITIONAL_TRANSLATIONS)
 
 
-def translate_text(text):
+# Track untranslated strings for --scan mode
+untranslated_strings = {}
+
+
+def translate_text(text, scan_mode=False):
     if text in FULL_TRANSLATIONS:
         return FULL_TRANSLATIONS[text]
     text_stripped = text.rstrip()
     if text_stripped in FULL_TRANSLATIONS:
         return FULL_TRANSLATIONS[text_stripped]
+    if scan_mode and text.strip():
+        untranslated_strings[text] = untranslated_strings.get(text, 0) + 1
     return text
 
 
 class FullPluginWriter:
-    def __init__(self):
+    def __init__(self, scan_mode=False):
         self.translations = 0
         self.compressed_translations = 0
+        self.scan_mode = scan_mode
 
     def process_subrecords(self, data):
         result = bytearray()
@@ -557,7 +807,7 @@ class FullPluginWriter:
                             offset += 6 + subrecord_size
                             continue
 
-                    translated = translate_text(original)
+                    translated = translate_text(original, self.scan_mode)
 
                     if translated != original:
                         new_data = translated.encode('utf-8') + b'\x00'
@@ -689,7 +939,58 @@ def main():
         print("Star Wars Genesisのインストールパスを確認してください。")
         sys.exit(1)
 
-    if len(sys.argv) > 1 and sys.argv[1] == "--apply":
+    mode = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if mode == "--scan":
+        # Scan mode: find all untranslated strings without modifying files
+        print("\nスキャンモード: 未翻訳文字列を検出中...")
+        total_found = 0
+        total_translated = 0
+        for folder, plugin in target_plugins:
+            plugin_path = os.path.join(mods_path, folder, plugin)
+            if not os.path.exists(plugin_path):
+                print(f"\n  {plugin}: Not found")
+                continue
+            writer = FullPluginWriter(scan_mode=True)
+            # Read-only scan: process but don't write
+            with open(plugin_path, 'rb') as f:
+                data = f.read()
+            if data[:4] != b'TES4':
+                continue
+            print(f"\n  Scanning: {plugin}")
+            offset = 0
+            while offset < len(data):
+                _, consumed = writer.process_record(data, offset)
+                offset += consumed
+            total_translated += writer.translations
+            total_found += writer.translations
+
+        total_strings = total_translated + len(untranslated_strings)
+        if total_strings > 0:
+            rate = total_translated / total_strings * 100
+        else:
+            rate = 0
+
+        print("\n" + "=" * 60)
+        print(f"翻訳済み文字列: {total_translated}")
+        print(f"未翻訳文字列: {len(untranslated_strings)}")
+        print(f"翻訳率: {rate:.1f}%")
+        print("=" * 60)
+
+        if untranslated_strings:
+            output_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "untranslated_strings.txt")
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write("# 未翻訳文字列一覧\n")
+                f.write(f"# 合計: {len(untranslated_strings)} 件\n")
+                f.write(f"# 翻訳率: {rate:.1f}%\n\n")
+                # Sort by occurrence count (most frequent first)
+                sorted_strings = sorted(untranslated_strings.items(), key=lambda x: -x[1])
+                for text, count in sorted_strings:
+                    f.write(f"[出現回数: {count}] {text}\n")
+            print(f"\n未翻訳文字列を出力しました: {output_file}")
+            print("このファイルを参考に translations_*.py に翻訳を追加してください。")
+
+    elif mode == "--apply":
         # Create backup directory
         os.makedirs(backup_dir, exist_ok=True)
 
@@ -716,7 +1017,9 @@ def main():
         print(f"From compressed records: {total_compressed}")
         print("=" * 60)
     else:
-        print("\nUsage: python full_translator.py --apply")
+        print("\nUsage:")
+        print("  python full_translator.py --apply   翻訳を適用")
+        print("  python full_translator.py --scan    未翻訳文字列をスキャン")
 
 
 if __name__ == "__main__":
